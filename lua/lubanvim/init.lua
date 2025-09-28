@@ -9,6 +9,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.scrolloff = 10
 
+vim.opt.wrap = false
+
 vim.cmd.colorscheme("habamax")
 
 vim.g.netrw_keepdir = 1
