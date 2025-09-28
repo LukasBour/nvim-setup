@@ -7,11 +7,9 @@ vim.opt.expandtab = false
 
 vim.opt.number = true
 vim.opt.relativenumber = true
-
 vim.opt.scrolloff = 10
 
 vim.cmd.colorscheme("habamax")
 
 vim.g.netrw_keepdir = 1
 vim.opt.autochdir = false
-
