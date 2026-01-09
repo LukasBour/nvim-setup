@@ -70,6 +70,9 @@ return {
 			conform.setup({
 				formatters_by_ft = {
 					python = { "isort", "black" },
+					c = { "clang-format" },
+					cpp = { "clang-format" },
+					arduino = { "clang-format" },
 				},
 				format_on_save = {
 					timeout_ms = 800,
