@@ -15,3 +15,14 @@ vim.cmd.colorscheme("habamax")
 
 vim.g.netrw_keepdir = 1
 vim.opt.autochdir = false
+
+vim.diagnostic.config({
+	virtual_text = {
+		prefix = vim.fn.nr2char(0xF111),
+		source = "if_many",
+		spacing = 2,
+	},
+	signs = true,
+	underline = true,
+	severity_sort = true,
+})
