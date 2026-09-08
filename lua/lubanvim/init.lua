@@ -26,3 +26,8 @@ vim.diagnostic.config({
 	underline = true,
 	severity_sort = true,
 })
+
+vim.cmd([[
+	highlight RedundantWhitespace ctermbg=darkmagenta guibg=darkmagenta
+	match RedundantWhitespace /\s\+$\| \+\ze\t/
+]])
