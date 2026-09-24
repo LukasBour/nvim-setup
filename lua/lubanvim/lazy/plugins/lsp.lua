@@ -6,6 +6,7 @@ return {
 				"lua_ls",
 				"pyright",
 				"clangd",
+				"rust_analyzer"
 			},
 		},
 		dependencies = {
@@ -73,6 +74,7 @@ return {
 					c = { "clang-format" },
 					cpp = { "clang-format" },
 					arduino = { "clang-format" },
+					rust = { "rustfmt" }
 				},
 				format_on_save = {
 					timeout_ms = 800,
